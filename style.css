@@ -40,15 +40,6 @@ body {
     font-family: monospace;
 }
 
-#numbers {
-    width: 32.8%;
-    height: 24.6%;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .symbols {
     width: 40%;
     height: 100%;
@@ -60,4 +51,21 @@ body {
 #add, #subtract, #multiply, #divide, #decimal, #enter {
     border: 1px solid black;
     height: 16.25%;
+}
+
+#add:hover, #subtract:hover, #multiply:hover, #divide:hover, #decimal:hover, #enter:hover {
+    background-color: grey;
+}
+
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero {
+    width: 32.8%;
+    height: 24.6%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#one:hover, #two:hover, #three:hover, #four:hover, #five:hover, #six:hover, #seven:hover, #eight:hover, #nine:hover, #zero:hover {
+    background-color: grey;
 }
